@@ -1,0 +1,26 @@
+# OS files
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+# Editor/IDE settings
+.vscode/
+.idea/
+*.code-workspace
+
+# Temporary files
+*.log
+*.tmp
+*.temp
+*~
+*.swp
+
+# Environment files (prevent accidental secret commits)
+.env
+.env.*
+
+# Common build outputs
+dist/
+build/
+coverage/
+node_modules/
