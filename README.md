@@ -23,8 +23,10 @@
 
 | ファイル | 内容 |
 |---------|------|
-| [src/data1.jsonc](src/data1.jsonc) | 単純な一対一対応の翻訳データ |
-| [src/data2.jsonc](src/data2.jsonc) | 文脈依存の翻訳データ |
+| [src/data1.jsonc](src/data1.jsonc) | 単純な一対一対応の翻訳データ（原本） |
+| [src/data2.jsonc](src/data2.jsonc) | 文脈依存の翻訳データ（原本） |
+| [dist/data1.json](dist/data1.json) | data1 の配布用 JSON（コメント・改行なし） |
+| [dist/data2.json](dist/data2.json) | data2 の配布用 JSON（コメント・改行なし） |
 
 ## データ形式
 

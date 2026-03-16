@@ -28,8 +28,10 @@
 
 | 文件 | 内容 |
 |------|------|
-| [src/data1.jsonc](../../../src/data1.jsonc) | 简单的一对一翻译数据 |
-| [src/data2.jsonc](../../../src/data2.jsonc) | 依赖上下文的翻译数据 |
+| [src/data1.jsonc](../../../src/data1.jsonc) | 简单的一对一翻译数据（原文件） |
+| [src/data2.jsonc](../../../src/data2.jsonc) | 依赖上下文的翻译数据（原文件） |
+| [dist/data1.json](../../../dist/data1.json) | 用于分发的压缩 JSON（无注释） |
+| [dist/data2.json](../../../dist/data2.json) | 用于分发的压缩 JSON（无注释） |
 
 ## 数据格式
 

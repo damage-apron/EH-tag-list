@@ -28,8 +28,10 @@
 
 | 파일 | 내용 |
 |------|------|
-| [src/data1.jsonc](../../../src/data1.jsonc) | 단순 일대일 번역 데이터 |
-| [src/data2.jsonc](../../../src/data2.jsonc) | 문맥 의존 번역 데이터 |
+| [src/data1.jsonc](../../../src/data1.jsonc) | 단순 일대일 번역 데이터 (원본) |
+| [src/data2.jsonc](../../../src/data2.jsonc) | 문맥 의존 번역 데이터 (원본) |
+| [dist/data1.json](../../../dist/data1.json) | 배포용 최소화 JSON (주석 없음) |
+| [dist/data2.json](../../../dist/data2.json) | 배포용 최소화 JSON (주석 없음) |
 
 ## 데이터 형식
 

@@ -28,8 +28,10 @@ This directory stores the tag translation data for hitomiViewer.
 
 | File | Contents |
 |------|----------|
-| [src/data1.jsonc](../../../src/data1.jsonc) | Simple one-to-one translation mappings |
-| [src/data2.jsonc](../../../src/data2.jsonc) | Context-dependent translation data |
+| [src/data1.jsonc](../../../src/data1.jsonc) | Simple one-to-one translation mappings (source) |
+| [src/data2.jsonc](../../../src/data2.jsonc) | Context-dependent translation data (source) |
+| [dist/data1.json](../../../dist/data1.json) | Minified JSON for distribution (no comments) |
+| [dist/data2.json](../../../dist/data2.json) | Minified JSON for distribution (no comments) |
 
 ## Data Format
 
