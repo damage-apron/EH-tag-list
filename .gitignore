@@ -28,6 +28,3 @@ package-lock.json
 build/
 coverage/
 node_modules/
-
-# Local working notes
-memo.md
