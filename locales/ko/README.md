@@ -20,19 +20,67 @@
 
 ## 개요
 
-이 디렉터리는 hitomiViewer용 태그 번역 데이터셋을 저장합니다.
+이 디렉터리는 hitomiViewer용 태그 번역 데이터를 저장합니다.
 
-- 주요 데이터: [src/data.jsonc](../../../src/data.jsonc)
 - 목적: 확장 기능에서 사용하는 사전 데이터의 배포 및 관리
+
+## 파일 구성
+
+| 파일 | 내용 |
+|------|------|
+| [src/data1.jsonc](../../../src/data1.jsonc) | 단순 일대일 번역 데이터 |
+| [src/data2.jsonc](../../../src/data2.jsonc) | 문맥 의존 번역 데이터 |
 
 ## 데이터 형식
 
-- 형식: JSONC (주석 포함 JSON)
-- 루트 키 예시: `tag`, `seriesTag`, `characterTag`
-- 일부 키는 문맥 기반 해석을 위해 `default`와 `series`를 가진 객체를 사용합니다
+두 파일 모두 JSONC(주석 포함 JSON) 형식을 사용합니다.
 
-JSONC는 표준 JSON 파서에서 바로 읽히지 않을 수 있습니다.
-엄격한 JSON이 필요하면 주석을 제거한 뒤 사용하세요.
+### 루트 키
+
+| 키 | 내용 |
+|----|------|
+| `tag` | 일반 태그 |
+| `seriesTag` | 작품・시리즈 태그 |
+| `characterTag` | 캐릭터 태그 |
+| `creatorTag` | 작가 태그 |
+| `groupTag` | 서클・그룹 태그 |
+
+### data1: 단순 문자열 매핑
+
+태그 이름이 문맥과 관계없이 하나의 번역어로 결정되는 경우:
+
+```jsonc
+"uncensored": "検閲なし"
+```
+
+### data2: 문맥 의존 객체
+
+같은 태그 이름이 작품에 따라 다른 번역어를 가지는 경우.
+`default`는 매칭되는 작품이 없을 때의 폴백 번역어,
+`series`는 작품명을 키로 하는 개별 번역어 맵:
+
+```jsonc
+"robin": {
+  "default": "ロビン",
+  "series": {
+    "batman": "ロビン",
+    "fire emblem awakening": "ルフレ"
+  }
+}
+```
+
+### 주석 행（data2）
+
+```jsonc
+// 10101
+"robin": { ... }
+```
+
+행 앞의 숫자 주석은 EH (e-hentai) 태그 ID로, 편집 참조용이며 데이터로서의 의미는 없습니다.
+
+### 주의
+
+JSONC는 표준 JSON 파서에서 직접 읽히지 않습니다. 사용 전에 주석과 후행 쉼표를 제거하고 사용하세요.
 
 ## 라이선스와 고지
 

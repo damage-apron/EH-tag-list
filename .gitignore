@@ -19,8 +19,15 @@ Desktop.ini
 .env
 .env.*
 
+# Build scripts (internal tooling, not distributed)
+scripts/
+package.json
+package-lock.json
+
 # Common build outputs
-dist/
 build/
 coverage/
 node_modules/
+
+# Local working notes
+memo.md

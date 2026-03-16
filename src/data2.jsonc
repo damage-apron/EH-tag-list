@@ -12,6 +12,169 @@
     // 12130
     "noel": "NOëL",
   },
+  "creatorTag": {
+    // 2997
+    // 道満晴命
+    "dowman sayman": "道満晴明",
+    // 3916
+    "chihiro": {
+      "default": "千尋",
+      "group": {
+        "kemonomichi": "チヒロ",
+        "zazenbeat": "千尋",
+      },
+    },
+    // 4028
+    "naruho-dou": "なるほど",
+    // 4257
+    "kirikaze": {
+      "default": "きりかぜ",
+      "group": {
+        "hime club": "霧風",
+        "koumorikaizin": "きりかぜ",
+      },
+    },
+    // 4672
+    "sage": "せーじ",
+    // 4708
+    "ume": "ume",
+    // 6206
+    "ryuuta": {
+      "default": "竜太",
+      "group": {
+        "hidden sideway": "竜太",
+        "axz": "りゅうた",
+      },
+    },
+    // 6594
+    "asuka": {
+      "default": "あすか",
+      "group": {
+        "nonono tsuushin": "あすか",
+        "harness": "明日香",
+      },
+    },
+    // 7779
+    "artist kagura": "神楽",
+    // 9124
+    "yamai sakatarou": {
+      "default": "山井逆太郎",
+      "priority": [
+        // https://book.dmm.co.jp/list/?author=279219&sort=date
+        // https://book.dmm.co.jp/list/?author=25344&sort=date
+        {
+          "type": "name",
+          "filter": ["ASOKO", "変なやり方", "ハッピー・ラブ・メール", "淫行令嬢", "溶ける女", "スノードロップは夢見ごこち"],
+          "value": "山井坂太郎",
+        },
+        {
+          "type": "date",
+          "filter": "until 2008-03-18",
+          "value": "山井坂太郎",
+        },
+        {
+          "type": "date",
+          "filter": "since 2009-09-25",
+          "value": "山井逆太郎",
+        },
+      ],
+    },
+    // 10025
+    "shiina nami": {
+      "default": "椎名波",
+      "priority": [
+        // https://www.dlsite.com/maniax/work/reviewlist/=/reviewer/REV0124837/product_id/RJ028521/
+        {
+          "type": "name",
+          "filter": ["女の子噴水中"],
+          "value": "椎名奈実",
+        },
+        {
+          "type": "date",
+          "filter": "until 2006-12-28",
+          "value": "椎名奈実",
+        },
+      ],
+    },
+    // 10028
+    "umekichi": {
+      // https://www.dmm.co.jp/dc/doujin/-/list/=/article=creator/id=0e351b52-64d4-11f0-ba33-0242ac160002/
+      // https://www.dlsite.com/books/author/=/options%5B0%5D/JPN/options%5B1%5D/NM/per_page/50/show_type/3/hd/1/author_id/AJ001153/lang_options%5B0%5D/%E6%97%A5%E6%9C%AC%E8%AA%9E/lang_options%5B1%5D/%E8%A8%80%E8%AA%9E%E4%B8%8D%E8%A6%81/without_order/1/page/1.html/order/release_d#works
+      // https://www.suruga-ya.jp/search?category=11000100&search_word=Apricot&brand=Japanese%E2%98%86apricot
+      "default": "ウメ吉",
+      "group": {
+        "umenomi gahou": "うめきち",
+        "japanese apricot": "うめ吉",
+      },
+    },
+    // 10029
+    "nanami shizuka": {
+      "default": "ななみ静",
+      "group": {
+        "pro-tec": "ななみ静",
+        "fuusa ryouiki": "七海静歌",
+      },
+    },
+    // 10039
+    // 蒼龍
+    "souryuu": "双龍",
+    // 10148
+    "artist akira": {
+      "default": "アキラ",
+      "date": {
+        // https://www.suruga-ya.jp/search?category=&search_word=&adult_s=3&person_id=178239&rankBy=release_date%28int%29%3Adescending
+        "until 2012-08-12": "AKIRA",
+      },
+    },
+    // 10153
+    "miharu": {
+      // "default": "美春",
+      "group": {
+        "fakestar": "美春",
+        "ttt": "ミハル",
+      },
+    },
+    // 10368
+    "sasaki maru": "笹木まる",
+    // 10876
+    // 無し
+    // 10944
+    "maya": "まや",
+  },
+  "groupTag": {
+    // 3556
+    // 無し
+    // 4028
+    "naruho-dou": "NARUHO堂",
+    // 4525
+    "nounai kanojo": {
+      "default": "のうないカノジョ",
+      "priority": [
+        // https://dic.pixiv.net/a/%E3%81%AE%E3%81%86%E3%81%AA%E3%81%84%E3%82%AB%E3%83%8E%E3%82%B8%E3%83%A7
+        {
+          "type": "name",
+          "filter": ["暴走生徒ちうま!", "発情期だよっ!ハリマ君", "ピーサードは二度死ぬ", "貧血マスター", "こんな私のご主人様"],
+          "value": "脳内彼女",
+        },
+        {
+          "type": "date",
+          "filter": "until 2006-08-14",
+          "value": "脳内彼女",
+        },
+        {
+          "type": "date",
+          "filter": "since 2006-08-27",
+          "value": "のうないカノジョ",
+        },
+      ],
+    },
+    // 4672
+    "sage": "Sage",
+    // 10368
+    "sasaki maru": "ささきまる",
+    // 12130
+    "noel": "NOEL",
+  },
   "characterTag": {
     // 4672
     "sage": "賢者",
@@ -746,168 +909,5 @@
         "animal crossing": "ビアンカ",
       },
     },
-  },
-  "creatorTag": {
-    // 2997
-    // 道満晴命
-    "dowman sayman": "道満晴明",
-    // 3916
-    "chihiro": {
-      "default": "千尋",
-      "group": {
-        "kemonomichi": "チヒロ",
-        "zazenbeat": "千尋",
-      },
-    },
-    // 4028
-    "naruho-dou": "なるほど",
-    // 4257
-    "kirikaze": {
-      "default": "きりかぜ",
-      "group": {
-        "hime club": "霧風",
-        "koumorikaizin": "きりかぜ",
-      },
-    },
-    // 4672
-    "sage": "せーじ",
-    // 4708
-    "ume": "ume",
-    // 6206
-    "ryuuta": {
-      "default": "竜太",
-      "group": {
-        "hidden sideway": "竜太",
-        "axz": "りゅうた",
-      },
-    },
-    // 6594
-    "asuka": {
-      "default": "あすか",
-      "group": {
-        "nonono tsuushin": "あすか",
-        "harness": "明日香",
-      },
-    },
-    // 7779
-    "artist kagura": "神楽",
-    // 9124
-    "yamai sakatarou": {
-      "default": "山井逆太郎",
-      "priority": [
-        // https://book.dmm.co.jp/list/?author=279219&sort=date
-        // https://book.dmm.co.jp/list/?author=25344&sort=date
-        {
-          "type": "name",
-          "filter": ["ASOKO", "変なやり方", "ハッピー・ラブ・メール", "淫行令嬢", "溶ける女", "スノードロップは夢見ごこち"],
-          "value": "山井坂太郎",
-        },
-        {
-          "type": "date",
-          "filter": "until 2008-03-18",
-          "value": "山井坂太郎",
-        },
-        {
-          "type": "date",
-          "filter": "since 2009-09-25",
-          "value": "山井逆太郎",
-        },
-      ],
-    },
-    // 10025
-    "shiina nami": {
-      "default": "椎名波",
-      "priority": [
-        // https://www.dlsite.com/maniax/work/reviewlist/=/reviewer/REV0124837/product_id/RJ028521/
-        {
-          "type": "name",
-          "filter": ["女の子噴水中"],
-          "value": "椎名奈実",
-        },
-        {
-          "type": "date",
-          "filter": "until 2006-12-28",
-          "value": "椎名奈実",
-        },
-      ],
-    },
-    // 10028
-    "umekichi": {
-      // https://www.dmm.co.jp/dc/doujin/-/list/=/article=creator/id=0e351b52-64d4-11f0-ba33-0242ac160002/
-      // https://www.dlsite.com/books/author/=/options%5B0%5D/JPN/options%5B1%5D/NM/per_page/50/show_type/3/hd/1/author_id/AJ001153/lang_options%5B0%5D/%E6%97%A5%E6%9C%AC%E8%AA%9E/lang_options%5B1%5D/%E8%A8%80%E8%AA%9E%E4%B8%8D%E8%A6%81/without_order/1/page/1.html/order/release_d#works
-      // https://www.suruga-ya.jp/search?category=11000100&search_word=Apricot&brand=Japanese%E2%98%86apricot
-      "default": "ウメ吉",
-      "group": {
-        "umenomi gahou": "うめきち",
-        "japanese apricot": "うめ吉",
-      },
-    },
-    // 10029
-    "nanami shizuka": {
-      "default": "ななみ静",
-      "group": {
-        "pro-tec": "ななみ静",
-        "fuusa ryouiki": "七海静歌",
-      },
-    },
-    // 10039
-    // 蒼龍
-    "souryuu": "双龍",
-    // 10148
-    "artist akira": {
-      "default": "アキラ",
-      "date": {
-        // https://www.suruga-ya.jp/search?category=&search_word=&adult_s=3&person_id=178239&rankBy=release_date%28int%29%3Adescending
-        "until 2012-08-12": "AKIRA",
-      },
-    },
-    // 10153
-    "miharu": {
-      // "default": "美春",
-      "group": {
-        "fakestar": "美春",
-        "ttt": "ミハル",
-      },
-    },
-    // 10368
-    "sasaki maru": "笹木まる",
-    // 10876
-    // 無し
-    // 10944
-    "maya": "まや",
-  },
-  "groupTag": {
-    // 3556
-    // 無し
-    // 4028
-    "naruho-dou": "NARUHO堂",
-    // 4525
-    "nounai kanojo": {
-      "default": "のうないカノジョ",
-      "priority": [
-        // https://dic.pixiv.net/a/%E3%81%AE%E3%81%86%E3%81%AA%E3%81%84%E3%82%AB%E3%83%8E%E3%82%B8%E3%83%A7
-        {
-          "type": "name",
-          "filter": ["暴走生徒ちうま!", "発情期だよっ!ハリマ君", "ピーサードは二度死ぬ", "貧血マスター", "こんな私のご主人様"],
-          "value": "脳内彼女",
-        },
-        {
-          "type": "date",
-          "filter": "until 2006-08-14",
-          "value": "脳内彼女",
-        },
-        {
-          "type": "date",
-          "filter": "since 2006-08-27",
-          "value": "のうないカノジョ",
-        },
-      ],
-    },
-    // 4672
-    "sage": "Sage",
-    // 10368
-    "sasaki maru": "ささきまる",
-    // 12130
-    "noel": "NOEL",
   },
 }

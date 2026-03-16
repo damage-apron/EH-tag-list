@@ -20,19 +20,66 @@
 
 ## 概要
 
-此目录用于存放 hitomiViewer 的标签翻译数据集。
+此目录用于存放 hitomiViewer 的标签翻译数据。
 
-- 主要数据: [src/data.jsonc](../../../src/data.jsonc)
 - 目的: 分发和管理扩展功能使用的词典数据
+
+## 文件结构
+
+| 文件 | 内容 |
+|------|------|
+| [src/data1.jsonc](../../../src/data1.jsonc) | 简单的一对一翻译数据 |
+| [src/data2.jsonc](../../../src/data2.jsonc) | 依赖上下文的翻译数据 |
 
 ## 数据格式
 
-- 格式: JSONC (带注释的 JSON)
-- 根键示例: `tag`, `seriesTag`, `characterTag`
-- 部分键为按上下文解析，使用包含 `default` 与 `series` 的对象
+两个文件均使用 JSONC（带注释的 JSON）格式。
 
-JSONC 可能无法被标准 JSON 解析器直接读取。
-如需严格 JSON，请先去除注释。
+### 根键
+
+| 键 | 内容 |
+|----|------|
+| `tag` | 一般标签 |
+| `seriesTag` | 作品・系列标签 |
+| `characterTag` | 角色标签 |
+| `creatorTag` | 作者标签 |
+| `groupTag` | 社团・团体标签 |
+
+### data1：简单字符串映射
+
+标签名称可唯一翻译时使用：
+
+```jsonc
+"uncensored": "検閲なし"
+```
+
+### data2：依赖上下文的对象
+
+同名标签在不同作品中有不同译名时使用。
+`default` 为未匹配到任何作品时的默认译名，`series` 为以作品名为键的译名映射：
+
+```jsonc
+"robin": {
+  "default": "ロビン",
+  "series": {
+    "batman": "ロビン",
+    "fire emblem awakening": "ルフレ"
+  }
+}
+```
+
+### 注释行（data2）
+
+```jsonc
+// 10101
+"robin": { ... }
+```
+
+行首数字注释为 EH (e-hentai) 标签 ID，仅用于编辑参考，无数据含义。
+
+### 注意
+
+JSONC 无法被标准 JSON 解析器直接读取。使用前请先去除注释和末尾逗号。
 
 ## 许可证与注明
 

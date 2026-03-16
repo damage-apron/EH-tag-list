@@ -20,19 +20,66 @@ If there is any difference, the Japanese source file takes precedence.
 
 ## Overview
 
-This directory stores the tag translation dataset for hitomiViewer.
+This directory stores the tag translation data for hitomiViewer.
 
-- Main data: [src/data.jsonc](../../../src/data.jsonc)
 - Purpose: distribution and maintenance of dictionary data used by the extension
+
+## File Structure
+
+| File | Contents |
+|------|----------|
+| [src/data1.jsonc](../../../src/data1.jsonc) | Simple one-to-one translation mappings |
+| [src/data2.jsonc](../../../src/data2.jsonc) | Context-dependent translation data |
 
 ## Data Format
 
-- Format: JSONC (JSON with comments)
-- Example root keys: `tag`, `seriesTag`, `characterTag`
-- Some keys use an object with `default` and `series` for context-dependent resolution
+Both files use JSONC (JSON with comments) format.
 
-JSONC may not be parseable by standard JSON parsers.
-Remove comments if you need strict JSON.
+### Root Keys
+
+| Key | Contents |
+|-----|----------|
+| `tag` | General tags |
+| `seriesTag` | Series/work tags |
+| `characterTag` | Character tags |
+| `creatorTag` | Creator tags |
+| `groupTag` | Group/circle tags |
+
+### data1: Simple String Mappings
+
+Used when a tag has a single unambiguous translation:
+
+```jsonc
+"uncensored": "検閲なし"
+```
+
+### data2: Context-Dependent Objects
+
+Used when the same tag name has different translations depending on the work.
+`default` is the fallback translation, `series` maps work names to specific translations:
+
+```jsonc
+"robin": {
+  "default": "ロビン",
+  "series": {
+    "batman": "ロビン",
+    "fire emblem awakening": "ルフレ"
+  }
+}
+```
+
+### Comment Lines (data2)
+
+```jsonc
+// 10101
+"robin": { ... }
+```
+
+Leading numeric comments are EH (e-hentai) tag IDs for editorial reference only.
+
+### Note
+
+JSONC cannot be parsed by standard JSON parsers. Remove comments and trailing commas before use.
 
 ## License and Notice
 
