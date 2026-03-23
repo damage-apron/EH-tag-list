@@ -42,8 +42,8 @@
 | `tag` | 一般タグ |
 | `seriesTag` | 作品・シリーズタグ |
 | `characterTag` | キャラクタータグ |
-| `creatorTag` | 作者タグ |
-| `groupTag` | サークル・グループタグ |
+| `artistTag` | 作者タグ |
+| `circleTag` | サークル・グループタグ |
 
 ### data1: 単純文字列マッピング
 

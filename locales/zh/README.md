@@ -44,8 +44,8 @@
 | `tag` | 一般标签 |
 | `seriesTag` | 作品・系列标签 |
 | `characterTag` | 角色标签 |
-| `creatorTag` | 作者标签 |
-| `groupTag` | 社团・团体标签 |
+| `artistTag` | 作者标签 |
+| `circleTag` | 社团・团体标签 |
 
 ### data1：简单字符串映射
 

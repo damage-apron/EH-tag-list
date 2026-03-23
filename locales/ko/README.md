@@ -44,8 +44,8 @@
 | `tag` | 일반 태그 |
 | `seriesTag` | 작품・시리즈 태그 |
 | `characterTag` | 캐릭터 태그 |
-| `creatorTag` | 작가 태그 |
-| `groupTag` | 서클・그룹 태그 |
+| `artistTag` | 작가 태그 |
+| `circleTag` | 서클・그룹 태그 |
 
 ### data1: 단순 문자열 매핑
 

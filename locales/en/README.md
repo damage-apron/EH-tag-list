@@ -44,8 +44,8 @@ Both files use JSONC (JSON with comments) format.
 | `tag` | General tags |
 | `seriesTag` | Series/work tags |
 | `characterTag` | Character tags |
-| `creatorTag` | Creator tags |
-| `groupTag` | Group/circle tags |
+| `artistTag` | Creator/artist tags |
+| `circleTag` | Circle/group tags |
 
 ### data1: Simple String Mappings
 

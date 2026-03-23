@@ -7,6 +7,16 @@ If there is any difference, the Japanese source file takes precedence.
 
 Jump to localized section: [Localized Changelog Files](#localized-changelog-files)
 
+## [1.1.0] - 2026-03-24
+
+Tag name reorganization and expansion.
+
+### Changes
+
+- Reorganized tag names: changed "creatorTag" to "artistTag" and "groupTag" to "circleTag"
+- Added new translation data
+- Removed and updated some entries
+
 ## [1.0.0] - 2026-03-14
 
 Initial public release.
