@@ -29,5 +29,5 @@ Please preserve attribution and license notices when redistributing this dataset
 
 - Japanese (source): [NOTICE.md](../../../NOTICE.md)
 - English (localized): [locales/en/NOTICE.md](NOTICE.md)
-- Chinese (localized): [locales/zh/NOTICE.md](../zh/NOTICE.md)
-- Korean (localized): [locales/ko/NOTICE.md](../ko/NOTICE.md)
+- 中文(本地化): [locales/zh/NOTICE.md](../zh/NOTICE.md)
+- 한국어(로컬라이즈): [locales/ko/NOTICE.md](../ko/NOTICE.md)
