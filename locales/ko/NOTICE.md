@@ -26,7 +26,7 @@ EHWiki는 별도 명시가 없는 한 GNU Free Documentation License 1.2+로 콘
 
 ## 언어별 NOTICE
 
-- 일본어(원문): [NOTICE.md](../../../NOTICE.md)
+- 일본어(원문): [NOTICE.md](../../NOTICE.md)
 - English (localized): [locales/en/NOTICE.md](../en/NOTICE.md)
 - 中文(本地化): [locales/zh/NOTICE.md](../zh/NOTICE.md)
 - 한국어(로컬라이즈): [locales/ko/NOTICE.md](NOTICE.md)

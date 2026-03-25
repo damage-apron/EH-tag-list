@@ -13,7 +13,7 @@
 
 ### 各语言 README
 
-- 日文(原文): [README.md](../../../README.md)
+- 日文(原文): [README.md](../../README.md)
 - English (localized): [locales/en/README.md](../en/README.md)
 - 中文(本地化): [locales/zh/README.md](README.md)
 - 한국어(로컬라이즈): [locales/ko/README.md](../ko/README.md)
@@ -28,10 +28,10 @@
 
 | 文件 | 内容 |
 |------|------|
-| [src/data1.jsonc](../../../src/data1.jsonc) | 简单的一对一翻译数据（原文件） |
-| [src/data2.jsonc](../../../src/data2.jsonc) | 依赖上下文的翻译数据（原文件） |
-| [dist/data1.json](../../../dist/data1.json) | 用于分发的压缩 JSON（无注释） |
-| [dist/data2.json](../../../dist/data2.json) | 用于分发的压缩 JSON（无注释） |
+| [src/data1.jsonc](../../src/data1.jsonc) | 简单的一对一翻译数据（原文件） |
+| [src/data2.jsonc](../../src/data2.jsonc) | 依赖上下文的翻译数据（原文件） |
+| [dist/data1.json](../../dist/data1.json) | 用于分发的压缩 JSON（无注释） |
+| [dist/data2.json](../../dist/data2.json) | 用于分发的压缩 JSON（无注释） |
 
 ## 数据格式
 
@@ -93,8 +93,8 @@ EHWiki 说明其内容在未特别注明时，按 GNU Free Documentation License
 
 本仓库中的数据集按 GNU Free Documentation License 1.2 or later (GFDL-1.2-or-later) 分发。
 
-- 许可证全文(原文): [LICENSE](../../../LICENSE)
-- 署名与来源说明(日文原文): [NOTICE.md](../../../NOTICE.md)
+- 许可证全文(原文): [LICENSE](../../LICENSE)
+- 署名与来源说明(日文原文): [NOTICE.md](../../NOTICE.md)
 - 署名与来源说明(中文本地化): [locales/zh/NOTICE.md](NOTICE.md)
 
 ## 免责声明

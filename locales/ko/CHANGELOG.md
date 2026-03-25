@@ -7,6 +7,16 @@
 
 언어별 섹션으로 이동: [언어별 CHANGELOG](#언어별-changelog)
 
+## [1.1.2] - 2026-03-26
+
+로컬라이즈 문서의 상대 경로를 수정했습니다.
+
+### 변경 내용
+
+- 일본어 원문 링크의 디렉터리 깊이를 수정 (3단계 상위 -> 2단계 상위)
+- 로컬라이즈 README의 `src` / `dist` / `LICENSE` / `NOTICE` 링크 깊이를 수정
+- 로컬라이즈 README/CHANGELOG/NOTICE 상대 경로를 재점검하여 불일치를 해소
+
 ## [1.1.1] - 2026-03-26
 
 로컬라이즈 문서의 언어 링크 표기를 조정했습니다.
@@ -40,7 +50,7 @@
 
 ## 언어별 CHANGELOG
 
-- 일본어(원문): [CHANGELOG.md](../../../CHANGELOG.md)
+- 일본어(원문): [CHANGELOG.md](../../CHANGELOG.md)
 - English (localized): [locales/en/CHANGELOG.md](../en/CHANGELOG.md)
 - 中文(本地化): [locales/zh/CHANGELOG.md](../zh/CHANGELOG.md)
 - 한국어(로컬라이즈): [locales/ko/CHANGELOG.md](CHANGELOG.md)

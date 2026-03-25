@@ -13,7 +13,7 @@ If there is any difference, the Japanese source file takes precedence.
 
 ### Localized README Files
 
-- Japanese (source): [README.md](../../../README.md)
+- Japanese (source): [README.md](../../README.md)
 - English (localized): [locales/en/README.md](README.md)
 - 中文(本地化): [locales/zh/README.md](../zh/README.md)
 - 한국어(로컬라이즈): [locales/ko/README.md](../ko/README.md)
@@ -28,10 +28,10 @@ This directory stores the tag translation data for hitomiViewer.
 
 | File | Contents |
 |------|----------|
-| [src/data1.jsonc](../../../src/data1.jsonc) | Simple one-to-one translation mappings (source) |
-| [src/data2.jsonc](../../../src/data2.jsonc) | Context-dependent translation data (source) |
-| [dist/data1.json](../../../dist/data1.json) | Minified JSON for distribution (no comments) |
-| [dist/data2.json](../../../dist/data2.json) | Minified JSON for distribution (no comments) |
+| [src/data1.jsonc](../../src/data1.jsonc) | Simple one-to-one translation mappings (source) |
+| [src/data2.jsonc](../../src/data2.jsonc) | Context-dependent translation data (source) |
+| [dist/data1.json](../../dist/data1.json) | Minified JSON for distribution (no comments) |
+| [dist/data2.json](../../dist/data2.json) | Minified JSON for distribution (no comments) |
 
 ## Data Format
 
@@ -94,8 +94,8 @@ unless otherwise noted.
 
 The dataset in this repository is distributed under GNU Free Documentation License 1.2 or later (GFDL-1.2-or-later).
 
-- License full text (source): [LICENSE](../../../LICENSE)
-- Attribution and source notes (Japanese source): [NOTICE.md](../../../NOTICE.md)
+- License full text (source): [LICENSE](../../LICENSE)
+- Attribution and source notes (Japanese source): [NOTICE.md](../../NOTICE.md)
 - Attribution and source notes (localized): [locales/en/NOTICE.md](NOTICE.md)
 - Attribution and source notes (Chinese localized): [locales/zh/NOTICE.md](../zh/NOTICE.md)
 - Attribution and source notes (Korean localized): [locales/ko/NOTICE.md](../ko/NOTICE.md)

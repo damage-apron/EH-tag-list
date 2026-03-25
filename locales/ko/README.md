@@ -13,7 +13,7 @@
 
 ### 언어별 README
 
-- 일본어(원문): [README.md](../../../README.md)
+- 일본어(원문): [README.md](../../README.md)
 - English (localized): [locales/en/README.md](../en/README.md)
 - 中文(本地化): [locales/zh/README.md](../zh/README.md)
 - 한국어(로컬라이즈): [locales/ko/README.md](README.md)
@@ -28,10 +28,10 @@
 
 | 파일 | 내용 |
 |------|------|
-| [src/data1.jsonc](../../../src/data1.jsonc) | 단순 일대일 번역 데이터 (원본) |
-| [src/data2.jsonc](../../../src/data2.jsonc) | 문맥 의존 번역 데이터 (원본) |
-| [dist/data1.json](../../../dist/data1.json) | 배포용 최소화 JSON (주석 없음) |
-| [dist/data2.json](../../../dist/data2.json) | 배포용 최소화 JSON (주석 없음) |
+| [src/data1.jsonc](../../src/data1.jsonc) | 단순 일대일 번역 데이터 (원본) |
+| [src/data2.jsonc](../../src/data2.jsonc) | 문맥 의존 번역 데이터 (원본) |
+| [dist/data1.json](../../dist/data1.json) | 배포용 최소화 JSON (주석 없음) |
+| [dist/data2.json](../../dist/data2.json) | 배포용 최소화 JSON (주석 없음) |
 
 ## 데이터 형식
 
@@ -94,8 +94,8 @@ EHWiki는 별도 명시가 없는 한 GNU Free Documentation License 1.2+로 콘
 
 이 저장소의 데이터셋은 GNU Free Documentation License 1.2 or later (GFDL-1.2-or-later)로 배포됩니다.
 
-- 라이선스 전문(원문): [LICENSE](../../../LICENSE)
-- 출처/귀속 고지(일본어 원문): [NOTICE.md](../../../NOTICE.md)
+- 라이선스 전문(원문): [LICENSE](../../LICENSE)
+- 출처/귀속 고지(일본어 원문): [NOTICE.md](../../NOTICE.md)
 - 출처/귀속 고지(한국어 로컬라이즈): [locales/ko/NOTICE.md](NOTICE.md)
 
 ## 면책

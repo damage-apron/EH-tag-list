@@ -26,7 +26,7 @@ EHWiki 说明其内容在未特别注明时，按 GNU Free Documentation License
 
 ## 各语言 NOTICE
 
-- 日文(原文): [NOTICE.md](../../../NOTICE.md)
+- 日文(原文): [NOTICE.md](../../NOTICE.md)
 - English (localized): [locales/en/NOTICE.md](../en/NOTICE.md)
 - 中文(本地化): [locales/zh/NOTICE.md](NOTICE.md)
 - 한국어(로컬라이즈): [locales/ko/NOTICE.md](../ko/NOTICE.md)

@@ -7,6 +7,16 @@
 
 跳转到语言区段: [各语言 CHANGELOG](#各语言-changelog)
 
+## [1.1.2] - 2026-03-26
+
+修复本地化文档中的相对路径。
+
+### 变更内容
+
+- 修正指向日文原文链接的目录层级（上溯3层 -> 上溯2层）
+- 修正本地化 README 中 `src` / `dist` / `LICENSE` / `NOTICE` 链接的层级
+- 重新检查各本地化 README/CHANGELOG/NOTICE 的相对路径并消除不一致
+
 ## [1.1.1] - 2026-03-26
 
 调整本地化文档中的语言链接标签。
@@ -40,7 +50,7 @@
 
 ## 各语言 CHANGELOG
 
-- 日文(原文): [CHANGELOG.md](../../../CHANGELOG.md)
+- 日文(原文): [CHANGELOG.md](../../CHANGELOG.md)
 - English (localized): [locales/en/CHANGELOG.md](../en/CHANGELOG.md)
 - 中文(本地化): [locales/zh/CHANGELOG.md](CHANGELOG.md)
 - 한국어(로컬라이즈): [locales/ko/CHANGELOG.md](../ko/CHANGELOG.md)
