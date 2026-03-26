@@ -83,6 +83,12 @@
 
 JSONC 无法被标准 JSON 解析器直接读取。使用前请先去除注释和末尾逗号。
 
+## 开发
+
+数据集转换和管理中使用的工具和程序已在以下位置发布：
+
+- **EH tag list generator**: <https://github.com/damage-apron/EH-tag-list-generator>
+
 ## 许可证与注明
 
 本数据集参考了 EHWiki 的公开信息。

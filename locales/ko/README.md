@@ -84,6 +84,12 @@
 
 JSONC는 표준 JSON 파서에서 직접 읽히지 않습니다. 사용 전에 주석과 후행 쉼표를 제거하고 사용하세요.
 
+## 개발
+
+데이터셋 변환 및 관리에 사용되는 도구 및 프로그램은 다음 위치에서 공개되고 있습니다:
+
+- **EH tag list generator**: <https://github.com/damage-apron/EH-tag-list-generator>
+
 ## 라이선스와 고지
 
 이 데이터셋은 EHWiki의 공개 정보를 참고하여 작성되었습니다.

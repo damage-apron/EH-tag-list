@@ -83,6 +83,12 @@ Leading numeric comments are EH (e-hentai) tag IDs for editorial reference only.
 
 JSONC cannot be parsed by standard JSON parsers. Remove comments and trailing commas before use.
 
+## Development
+
+Tools and programs used for dataset transformation and management are published at:
+
+- **EH tag list generator**: <https://github.com/damage-apron/EH-tag-list-generator>
+
 ## License and Notice
 
 This dataset is prepared with reference to public information from EHWiki.
