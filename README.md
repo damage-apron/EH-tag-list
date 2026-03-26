@@ -17,7 +17,7 @@
 
 このディレクトリは、hitomiViewer 用のタグ翻訳データを格納しています。
 
-このリポジトリは、ライセンス管理（GFDL 分離）のためにデータのみを切り出して公開する目的で運用しています。
+このリポジトリは、ライセンス管理(GFDL 分離)のためにデータのみを切り出して公開する目的で運用しています。
 データを利用する本体プログラムは別リポジトリで開発中です。
 
 - 目的: 拡張機能で使用する翻訳辞書データの配布と管理
@@ -26,10 +26,10 @@
 
 | ファイル | 内容 |
 |---------|------|
-| [src/data1.jsonc](src/data1.jsonc) | 単純な一対一対応の翻訳データ（原本） |
-| [src/data2.jsonc](src/data2.jsonc) | 文脈依存の翻訳データ（原本） |
-| [dist/data1.json](dist/data1.json) | data1 の配布用 JSON（コメント・改行なし） |
-| [dist/data2.json](dist/data2.json) | data2 の配布用 JSON（コメント・改行なし） |
+| [src/data1.jsonc](src/data1.jsonc) | 単純な一対一対応の翻訳データ(原本) |
+| [src/data2.jsonc](src/data2.jsonc) | 文脈依存の翻訳データ(原本) |
+| [dist/data1.json](dist/data1.json) | data1 の配布用 JSON(コメント・改行なし) |
+| [dist/data2.json](dist/data2.json) | data2 の配布用 JSON(コメント・改行なし) |
 
 ## データ形式
 
@@ -69,7 +69,7 @@
 }
 ```
 
-### コメント行（data2）
+### コメント行(data2)
 
 ```jsonc
 // 10101
