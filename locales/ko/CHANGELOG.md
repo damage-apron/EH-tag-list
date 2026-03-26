@@ -11,7 +11,7 @@
 
 로컬라이즈 문서의 상대 경로를 수정했습니다.
 
-### 변경 내용
+### Changed
 
 - 일본어 원문 링크의 디렉터리 깊이를 수정 (3단계 상위 -> 2단계 상위)
 - 로컬라이즈 README의 `src` / `dist` / `LICENSE` / `NOTICE` 링크 깊이를 수정
@@ -21,7 +21,7 @@
 
 로컬라이즈 문서의 언어 링크 표기를 조정했습니다.
 
-### 변경 내용
+### Changed
 
 - 언어 링크 표시 규칙을 통일
 - 각 로컬라이즈 문서에서 일본어(원문)와 해당 문서 언어만 문서 언어로 표기
@@ -31,17 +31,21 @@
 
 태그 이름 정리 및 확장.
 
-### 변경 내용
+### Changed
 
 - 태그 이름 정리: "creatorTag"를 "artistTag"로, "groupTag"를 "circleTag"로 변경
 - 새로운 번역 데이터 추가
-- 일부 항목 삭제 및 수정
+
+### Removed
+
+- 일부 항목 삭제
+- 일부 항목 수정
 
 ## [1.0.0] - 2026-03-14
 
 초기 공개.
 
-### 수록 내용
+### Added
 
 - 데이터셋 공개용 문서 작성 (README, LICENSE, NOTICE, CHANGELOG)
 - GNU Free Documentation License 1.2 or later (GFDL-1.2-or-later) 전문 동봉 및 출처 정보 정리

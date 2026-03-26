@@ -11,7 +11,7 @@
 
 修复本地化文档中的相对路径。
 
-### 变更内容
+### Changed
 
 - 修正指向日文原文链接的目录层级（上溯3层 -> 上溯2层）
 - 修正本地化 README 中 `src` / `dist` / `LICENSE` / `NOTICE` 链接的层级
@@ -21,7 +21,7 @@
 
 调整本地化文档中的语言链接标签。
 
-### 变更内容
+### Changed
 
 - 统一语言链接的显示规则
 - 在各本地化文档中，仅“日文(原文)”与当前文档语言使用文档语言表记
@@ -31,17 +31,21 @@
 
 标签名称整理和扩展。
 
-### 变更内容
+### Changed
 
 - 整理标签名称：将「creatorTag」改为「artistTag」，将「groupTag」改为「circleTag」
 - 添加了新的翻译数据
-- 删除和修改了部分条目
+
+### Removed
+
+- 删除了部分条目
+- 修改了部分条目
 
 ## [1.0.0] - 2026-03-14
 
 首次公开发布。
 
-### 收录内容
+### Added
 
 - 创建用于数据集发布的文档 (README, LICENSE, NOTICE, CHANGELOG)
 - 同捆 GNU Free Documentation License 1.2 or later (GFDL-1.2-or-later) 全文并整理来源信息
