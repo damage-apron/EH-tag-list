@@ -85,9 +85,7 @@ JSONC 无法被标准 JSON 解析器直接读取。使用前请先去除注释�
 
 ## 开发
 
-数据集转换和管理中使用的工具和程序已在以下位置发布：
-
-- **EH tag list generator**: <https://github.com/damage-apron/EH-tag-list-generator>
+用于数据集转换与管理的工具和程序已在 [EH-tag-list-generator](https://github.com/damage-apron/EH-tag-list-generator) 发布。
 
 ## 许可证与注明
 

@@ -85,9 +85,7 @@ JSONC cannot be parsed by standard JSON parsers. Remove comments and trailing co
 
 ## Development
 
-Tools and programs used for dataset transformation and management are published at:
-
-- **EH tag list generator**: <https://github.com/damage-apron/EH-tag-list-generator>
+Tools and programs used for dataset transformation and management are published in [EH-tag-list-generator](https://github.com/damage-apron/EH-tag-list-generator).
 
 ## License and Notice
 
