@@ -1,4 +1,4 @@
-# 变更记录 (Changelog, 中文本地化)
+﻿# 变更记录 (Changelog, 中文本地化)
 
 此文件通过 AI 翻译生成，可能存在不准确之处。
 如与日文原文不一致，请以日文原文为准。
@@ -6,26 +6,6 @@
 ---
 
 跳转到语言区段: [各语言 CHANGELOG](#各语言-changelog)
-
-## [1.1.2] - 2026-03-26
-
-修复本地化文档中的相对路径。
-
-### Changed
-
-- 修正指向日文原文链接的目录层级（上溯3层 -> 上溯2层）
-- 修正本地化 README 中 `src` / `dist` / `LICENSE` / `NOTICE` 链接的层级
-- 重新检查各本地化 README/CHANGELOG/NOTICE 的相对路径并消除不一致
-
-## [1.1.1] - 2026-03-26
-
-调整本地化文档中的语言链接标签。
-
-### Changed
-
-- 统一语言链接的显示规则
-- 在各本地化文档中，仅“日文(原文)”与当前文档语言使用文档语言表记
-- 其余语言链接改为各自语言的原生表记
 
 ## [1.1.0] - 2026-03-24
 
@@ -58,3 +38,4 @@
 - English (localized): [locales/en/CHANGELOG.md](../en/CHANGELOG.md)
 - 中文(本地化): [locales/zh/CHANGELOG.md](CHANGELOG.md)
 - 한국어(로컬라이즈): [locales/ko/CHANGELOG.md](../ko/CHANGELOG.md)
+
