@@ -84,9 +84,7 @@ JSONC は標準 JSON パーサでは読めません。利用時はコメント�
 
 ## 開発
 
-データセットの変換・管理に使用する ツール・プログラムは以下で公開しています。
-
-- **EH tag list generator**: <https://github.com/damage-apron/EH-tag-list-generator>
+データセットの変換・管理に使用する ツール・プログラムは [EH-tag-list-generator](https://github.com/damage-apron/EH-tag-list-generator) で公開しています。
 
 ## ライセンス
 
